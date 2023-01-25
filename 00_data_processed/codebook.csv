@@ -1,0 +1,46 @@
+short_name_unit,short_name,short_unit,category,weo_subject_code
+Real GDP (bn local currency),Real GDP,bn local currency,GDP,NGDP_R
+Real GDP (% change),Real GDP,% change,GDP,NGDP_RPCH
+Nominal GDP (bn local currency),Nominal GDP,bn local currency,GDP,NGDP
+Nominal GDP (bn USD),Nominal GDP,bn USD,GDP,NGDPD
+Nominal GDP (bn PPP),Nominal GDP,bn PPP,GDP,PPPGDP
+GDP Deflator (index),GDP Deflator,index,GDP,NGDP_D
+Real GDP per capita (local currency),Real GDP per capita,local currency,GDP,NGDPRPC
+Real GDP per capita (PPP),Real GDP per capita,PPP,GDP,NGDPRPPPPC
+Nominal GDP per capita (local currency),Nominal GDP per capita,local currency,GDP,NGDPPC
+Nominal GDP per capita (USD),Nominal GDP per capita,USD,GDP,NGDPDPC
+Nominal GDP per capita (PPP),Nominal GDP per capita,PPP,GDP,PPPPC
+Output Gap (% of potential GDP),Output Gap,% of potential GDP,GDP,NGAP_NPGDP
+GDP % share of world total (PPP),GDP % share of world total,PPP,GDP,PPPSH
+Implied PPP Conversion Rate (LC per int dollar),Implied PPP Conversion Rate,LC per int dollar,other,PPPEX
+Total Investment (% of GDP),Total Investment,% of GDP,savings & investment,NID_NGDP
+Gross National Savings (% of GDP),Gross National Savings,% of GDP,savings & investment,NGSD_NGDP
+Inflation (avg - index),Inflation,avg - index,inflation,PCPI
+Inflation (avg - % change),Inflation,avg - % change,inflation,PCPIPCH
+Inflation (eop - index),Inflation,eop - index,inflation,PCPIE
+Inflation (eop - % change),Inflation,eop - % change,inflation,PCPIEPCH
+LIBOR - 6m (%),LIBOR - 6m,%,other,FLIBOR6
+Imports - Goods & Services (volume % change),Imports - Goods & Services,volume % change,external,TM_RPCH
+Imports - Goods (volume % change),Imports - Goods,volume % change,external,TMG_RPCH
+Exports - Goods & Services (volume % change),Exports - Goods & Services,volume % change,external,TX_RPCH
+Exports - Goods (volume % change),Exports - Goods,volume % change,external,TXG_RPCH
+Unemployment Rate (%),Unemployment Rate,%,population & employment,LUR
+Employment (mn),Employment,mn,population & employment,LE
+Population (mn),Population,mn,population & employment,LP
+Fiscal Revenue (bn local currency),Fiscal Revenue,bn local currency,fiscal & debt,GGR
+Fiscal Revenue (% of GDP),Fiscal Revenue,% of GDP,fiscal & debt,GGR_NGDP
+Fiscal Expenditure (bn local currency),Fiscal Expenditure,bn local currency,fiscal & debt,GGX
+Fiscal Expenditure (% of GDP),Fiscal Expenditure,% of GDP,fiscal & debt,GGX_NGDP
+Fiscal Balance (bn local currency),Fiscal Balance,bn local currency,fiscal & debt,GGXCNL
+Fiscal Balance (% of GDP),Fiscal Balance,% of GDP,fiscal & debt,GGXCNL_NGDP
+Fiscal Balance - Structural (bn - local currency),Fiscal Balance - Structural,bn - local currency,fiscal & debt,GGSB
+Fiscal Balance - Structural (% of GDP),Fiscal Balance - Structural,% of GDP,fiscal & debt,GGSB_NPGDP
+Fiscal Balance - Primary (bn - local currency),Fiscal Balance - Primary,bn - local currency,fiscal & debt,GGXONLB
+Fiscal Balance - Primary (% of GDP),Fiscal Balance - Primary,% of GDP,fiscal & debt,GGXONLB_NGDP
+Debt - Net (bn local currency),Debt - Net,bn local currency,fiscal & debt,GGXWDN
+Debt - Net (% of GDP),Debt - Net,% of GDP,fiscal & debt,GGXWDN_NGDP
+Debt - Gross (bn local currency),Debt - Gross,bn local currency,fiscal & debt,GGXWDG
+Debt - Gross (% of GDP),Debt - Gross,% of GDP,fiscal & debt,GGXWDG_NGDP
+Nominal GDP FY (bn local currency),Nominal GDP FY,bn local currency,fiscal & debt,NGDP_FY
+Current Account Balance (bn USD),Current Account Balance,bn USD,external,BCA
+Current Account Balance (% of GDP),Current Account Balance,% of GDP,external,BCA_NGDPD
