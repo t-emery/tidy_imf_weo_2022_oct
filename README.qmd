@@ -7,7 +7,7 @@ editor: visual
 
 # Introduction
 
-This GitHub Repo houses a [tidy (long-format)](https://r4ds.hadley.nz/data-tidy.html) version of the[IMF's World Economic Outlook Database for October 2022](https://www.imf.org/en/Publications/SPROLLs/world-economic-outlook-databases#sort=%40imfdate%20descending). I use this a lot for data analysis and data visualization, and I want to make sure my work is reproducible, so I'm putting it on GitHub. Also, I hope the data or the scripts can be useful for others, especially those working on projects with me.
+This GitHub Repo houses a [tidy (long-format)](https://r4ds.hadley.nz/data-tidy.html) version of the [IMF's World Economic Outlook Database for October 2022](https://www.imf.org/en/Publications/SPROLLs/world-economic-outlook-databases#sort=%40imfdate%20descending). I use this a lot for data analysis and data visualization, and I want to make sure my work is reproducible, so I'm putting it on GitHub. Also, I hope the data or the scripts can be useful for others, especially those working on projects with me.
 
 Someday I'll clean up & formalize the scripts, but they work well for now.
 
@@ -24,3 +24,47 @@ Elements of the Tidy WEO:
 The data is available in long-format as an `.rds` (R data file).
 
 Long-format `.csv` files aren't space efficient, so I have it written as a wide-format `.csv` file. Making it wide-format cuts the file size down from 42.1 MB to 1.5 MB. I make this available for non-R users.
+
+# Downloading the Data
+
+if you're using R, you can copy the code for the function below to download the data.
+
+```{r}
+download_tidy_weo_2022_oct <- function() {
+  
+  # rds file github url
+  github_url <- "https://github.com/t-emery/tidy_imf_weo_2022_oct/raw/master/00_data_processed/imf_weo_2022_oct_by_country_tidy.rds"
+  
+  github_url |> 
+    url() |> 
+    #unzips it
+    gzcon() |> 
+    #reads it
+    readRDS()
+}
+```
+
+You can run it like this:
+
+```{r}
+download_tidy_weo_2022_oct() |> 
+  head()
+```
+
+To download the codebook:
+
+```{r}
+download_tidy_weo_2022_oct_codebook <- function() {
+  
+  # rds file github url
+  github_url <- "https://raw.githubusercontent.com/t-emery/tidy_imf_weo_2022_oct/master/00_data_processed/codebook.csv"
+  
+  github_url |> 
+    readr::read_csv()
+}
+```
+
+```{r}
+#| message: false
+download_tidy_weo_2022_oct_codebook()
+```
